@@ -1,0 +1,13 @@
+create database dbChristianAraujo;
+use dbChristianAraujo;
+
+insert into hospedajes(nombre)values("las estrellas");
+insert into hospedajes(nombre)values("el cielo");
+
+insert into reservas(costo)values("80");
+insert into reservas(costo)values("120");
+
+insert into turistas(direccion, nombre_turista,nro_celular)values("La molina", "Guille", "123456789");
+insert into turistas(direccion, nombre_turista,nro_celular)values("La victoria","Ricardo","123456789");
+
+
